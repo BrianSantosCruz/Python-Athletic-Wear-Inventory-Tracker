@@ -5,13 +5,13 @@
 
 
 1. Assumption 1
-   - **Question:** What does ADD represent in the datafile?
-   - **Assumption:** Products that are labeled with ADD must be += 1.
-   - **Risk:** If this is wrong, the real impact that the ADD has may be overlooked. To avoid this, I would check the differences that the ADD does in the datafile in output.
+   - **Question:** What amount of stock causes a product to be labeled as low?
+   - **Assumption:** I will estimate that low stock is around a quantity of 10.
+   - **Risk:** If this is wrong, the real low amount will be overlooked, and my code may overlook when a product is low altogether. I would ask the stakeholder and check in comparison with the amount of other similar products.
 2. Assumption 2
    - **Question:** What do the empty lines in the datafile mean?
    - **Assumption:** The empty lines in the datafile are simply for spacing, but must be taken into consideration when counting lines.
-   - **Risk:** If this is wrong, I can easily miss or format information incorrectly, messing up outputs and results that the manager needs.
+   - **Risk:** If this is wrong, I can easily miss or format information incorrectly, messing up outputs and results that the manager needs. I would check the outputs and see if the two empty lines are accounted for, and edit code in response.
 
 ## The 3+ edge cases you found and handled
 
