@@ -12,7 +12,7 @@ Before your final push you'll rename this folder to analysis/.
 import json
 
 
-class YourInventoryItem:
+class AthleticWear:
     """
     TODO: rename this class to something that fits your scenario, and
     write a real docstring. What does one of these represent? At minimum
@@ -20,7 +20,10 @@ class YourInventoryItem:
     for, not more and not less.
     """
 
-    def __init__(self):
+    def __init__(self, product_name, stock, category):
+        self.product_name = product_name
+        self.stock = stock
+        self.category = category
         # TODO: add your own parameters (self, plus each attribute you're
         # tracking) and store each one as self.whatever = whatever.
         pass
