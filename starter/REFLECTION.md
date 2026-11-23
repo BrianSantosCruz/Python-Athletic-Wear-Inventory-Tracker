@@ -1,29 +1,17 @@
 # Written Reflection
 
-> **Instructions (delete before your final push):** this file has six
-> required sections. Fill each one in based on what you actually built,
-> not a generic textbook answer. Every block like this one, starting with
-> **Instructions (delete before your final push)**, is guidance from us.
-> **Delete each one, and every `_TODO_`, once you've written your
-> answer.** Keep the `##` headings and your own writing.
 
 ## Assumptions (Question, Assumption, Risk)
 
-> **Instructions (delete before your final push):** list at least 2
-> things your stakeholder didn't say that your code still had to decide,
-> such as what counts as "low stock." For each one, fill in:
-> **Question:** what wasn't specified? **Assumption:** what did you
-> decide? **Risk:** what goes wrong if the assumption is wrong, and how
-> would you check it?
 
 1. Assumption 1
-   - **Question:** _TODO_
-   - **Assumption:** _TODO_
-   - **Risk:** _TODO_
+   - **Question:** What does ADD represent in the datafile?
+   - **Assumption:** Products that are labeled with ADD must be += 1.
+   - **Risk:** If this is wrong, the real impact that the ADD has may be overlooked. To avoid this, I would check the differences that the ADD does in the datafile in output.
 2. Assumption 2
-   - **Question:** _TODO_
-   - **Assumption:** _TODO_
-   - **Risk:** _TODO_
+   - **Question:** What do the empty lines in the datafile mean?
+   - **Assumption:** The empty lines in the datafile are simply for spacing, but must be taken into consideration when counting lines.
+   - **Risk:** If this is wrong, I can easily miss or format information incorrectly, messing up outputs and results that the manager needs.
 
 ## The 3+ edge cases you found and handled
 
