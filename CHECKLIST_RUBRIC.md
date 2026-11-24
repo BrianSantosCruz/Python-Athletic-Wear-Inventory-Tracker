@@ -119,29 +119,29 @@ teams plan their work this way. This project is your first sprint.
 
 ### Day 1: Plan and build your class
 
-- [ ] Create your repo from the template with **"Use this template"** (not
+- [x] Create your repo from the template with **"Use this template"** (not
   Fork) and clone it. See `README.md`.
-- [ ] Confirm `.gitignore`, `LICENSE`, and the git history are there.
+- [x] Confirm `.gitignore`, `LICENSE`, and the git history are there.
   Replace `[YOUR NAME]` in `LICENSE` with your name and commit.
-- [ ] Check Python works: `python3 --version`.
-- [ ] Read all 4 scenarios in `PROJECT_OVERVIEW.md`. **Pick one and delete the
+- [x] Check Python works: `python3 --version`.
+- [x] Read all 4 scenarios in `PROJECT_OVERVIEW.md`. **Pick one and delete the
   other 3 data files**.
-- [ ] Read `starter/REFLECTION.md` so you know what you'll need to explain
+- [x] Read `starter/REFLECTION.md` so you know what you'll need to explain
   at the end.
-- [ ] Write your QAR assumptions in the "Assumptions" section of
+- [x] Write your QAR assumptions in the "Assumptions" section of
   `REFLECTION.md`. Include at least what counts as "low stock."
-- [ ] Sketch your class's attributes on paper or in a scratch file, based
+- [x] Sketch your class's attributes on paper or in a scratch file, based
   on your stakeholder's words.
   - Common mistake: choosing attributes that don't answer your
     stakeholder's question, or copying them from another scenario.
-- [ ] Trace the first 3 lines of your data file by hand. What makes an
+- [x] Trace the first 3 lines of your data file by hand. What makes an
   `ADD` line valid or invalid?
-- [ ] Write `__init__` to store your attributes, and an `is_low_stock`
+- [x] Write `__init__` to store your attributes, and an `is_low_stock`
   method that uses your assumption.
-- [ ] Create 2 objects and change one. Confirm the other one didn't
+- [x] Create 2 objects and change one. Confirm the other one didn't
   change.
-- [ ] Write a docstring for the class and each method in your own words.
-- [ ] Commit: `git commit -m "add [scenario] item class"`.
+- [x] Write a docstring for the class and each method in your own words.
+- [x] Commit: `git commit -m "add [scenario] item class"`.
 
 ### Day 2: Read and validate lines
 
