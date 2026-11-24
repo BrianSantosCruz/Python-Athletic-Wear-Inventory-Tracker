@@ -13,28 +13,25 @@ import json
 
 
 class AthleticWear:
-    """
-    TODO: rename this class to something that fits your scenario, and
-    write a real docstring. What does one of these represent? At minimum
-    you'll need a name and a quantity. Add what your stakeholder asked
-    for, not more and not less.
-    """
+    """Represents the name and quantity of an athletic product in store."""
 
-    def __init__(self, product_name, stock, category):
+    def __init__(self, product_name, stock):
         self.product_name = product_name
         self.stock = stock
-        self.category = category
         # TODO: add your own parameters (self, plus each attribute you're
         # tracking) and store each one as self.whatever = whatever.
         pass
 
     def is_low_stock(self):
-        """TODO: write your own docstring."""
-        # TODO: return True or False. Your stakeholder didn't say what
+        """Return True if the product's stock is below 10. Otherwise, return False."""
+        return self.stock < 10      # TODO: return True or False. Your stakeholder didn't say what
         # "low" means, so decide, and write down the assumption in
         # REFLECTION.md's "Assumptions" section.
         pass
-
+#item1 = AthleticWear("Running Shoes (M)", 48)
+#item2 = AthleticWear("Yoga Mats", 9)
+#item1.stock = 40
+#print(item1.stock, item2.stock)
 
 def read_batch_file(filepath):
     """
